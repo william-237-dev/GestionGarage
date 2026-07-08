@@ -1,7 +1,13 @@
-/home/adriel/GestionGarage/gestiongarage/src/main/java/com/axitech/dao/entities/TypeConges.java
 /home/adriel/GestionGarage/gestiongarage/src/main/java/com/axitech/dao/entities/Voiture.java
-/home/adriel/GestionGarage/gestiongarage/src/main/java/com/axitech/dao/entities/Employer.java
 /home/adriel/GestionGarage/gestiongarage/src/main/java/com/axitech/dao/entities/Personne.java
-/home/adriel/GestionGarage/gestiongarage/src/main/java/com/axitech/dao/repository/EmployerRepository.java
-/home/adriel/GestionGarage/gestiongarage/src/main/java/com/axitech/web/controller/EmployerController.java
+/home/adriel/GestionGarage/gestiongarage/src/main/java/com/axitech/controller/EmployerController.java
+/home/adriel/GestionGarage/gestiongarage/src/main/java/com/axitech/dao/repository/ProduitRepository.java
 /home/adriel/GestionGarage/gestiongarage/src/main/java/com/axitech/dao/DataBase.java
+/home/adriel/GestionGarage/gestiongarage/src/main/java/com/axitech/controller/ProduitController.java
+/home/adriel/GestionGarage/gestiongarage/src/main/java/com/axitech/dao/entities/TypeConges.java
+/home/adriel/GestionGarage/gestiongarage/src/main/java/com/axitech/dao/entities/Employer.java
+/home/adriel/GestionGarage/gestiongarage/src/main/java/com/axitech/controller/Personne.java
+/home/adriel/GestionGarage/gestiongarage/src/main/java/com/axitech/services/ProduitService.java
+/home/adriel/GestionGarage/gestiongarage/src/main/java/com/axitech/controller/Addition.java
+/home/adriel/GestionGarage/gestiongarage/src/main/java/com/axitech/dao/repository/EmployerRepository.java
+/home/adriel/GestionGarage/gestiongarage/src/main/java/com/axitech/dao/entities/Produit.java

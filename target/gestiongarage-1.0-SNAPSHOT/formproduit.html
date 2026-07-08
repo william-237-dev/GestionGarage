@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestion des Produits | AXITECH</title>
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+
+    <!-- Google Font -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <style>
+        *{
+            font-family: 'Poppins', sans-serif;
+        }
+
+        body{
+            min-height:100vh;
+            display:flex;
+            justify-content:center;
+            align-items:center;
+            background:linear-gradient(135deg,#0f172a,#1e3a8a,#2563eb);
+            overflow:hidden;
+        }
+
+        body::before{
+            content:"";
+            position:absolute;
+            width:350px;
+            height:350px;
+            background:#60a5fa;
+            border-radius:50%;
+            top:-120px;
+            left:-120px;
+            filter:blur(120px);
+        }
+
+        body::after{
+            content:"";
+            position:absolute;
+            width:300px;
+            height:300px;
+            background:#38bdf8;
+            border-radius:50%;
+            bottom:-100px;
+            right:-100px;
+            filter:blur(120px);
+        }
+
+        .card-premium{
+            position:relative;
+            z-index:10;
+            width:100%;
+            max-width:520px;
+            border:none;
+            border-radius:25px;
+            background:rgba(255,255,255,.15);
+            backdrop-filter:blur(18px);
+            box-shadow:0 20px 60px rgba(0,0,0,.35);
+            padding:40px;
+            color:white;
+        }
+
+        .logo{
+            width:90px;
+            height:90px;
+            border-radius:50%;
+            background:white;
+            display:flex;
+            justify-content:center;
+            align-items:center;
+            margin:auto;
+            color:#2563eb;
+            font-size:40px;
+            box-shadow:0 15px 35px rgba(0,0,0,.25);
+        }
+
+        h2{
+            font-weight:700;
+        }
+
+        .form-control{
+            height:55px;
+            border-radius:14px;
+            border:none;
+            padding-left:45px;
+            background:rgba(255,255,255,.9);
+        }
+
+        .form-control:focus{
+            box-shadow:0 0 0 .25rem rgba(255,255,255,.3);
+        }
+
+        .input-group-text{
+            position:absolute;
+            z-index:5;
+            height:55px;
+            border:none;
+            background:transparent;
+            color:#2563eb;
+            font-size:20px;
+            padding-left:15px;
+        }
+
+        .input-wrapper{
+            position:relative;
+        }
+
+        .btn-premium{
+            height:55px;
+            border:none;
+            border-radius:14px;
+            font-weight:600;
+            background:linear-gradient(135deg,#2563eb,#1d4ed8);
+            transition:.3s;
+        }
+
+        .btn-premium:hover{
+            transform:translateY(-3px);
+            box-shadow:0 15px 30px rgba(37,99,235,.45);
+        }
+
+        .footer{
+            font-size:.9rem;
+            opacity:.8;
+        }
+    </style>
+
+</head>
+
+<body>
+
+<div class="card-premium">
+
+    <div class="logo mb-4">
+        <i class="bi bi-box-seam-fill"></i>
+    </div>
+
+    <h2 class="text-center">Ajouter un Produit</h2>
+
+    <p class="text-center mb-4 text-light">
+        Système professionnel de gestion des produits
+    </p>
+
+    <form action="/www.axitech.com/produit" method="post">
+
+        <div class="mb-4 input-wrapper">
+
+            <span class="input-group-text">
+                <i class="bi bi-tag-fill"></i>
+            </span>
+
+            <input
+                type="text"
+                class="form-control"
+                name="designation"
+                placeholder="Désignation du produit"
+                required>
+
+        </div>
+
+        <div class="mb-4 input-wrapper">
+
+            <span class="input-group-text">
+                <i class="bi bi-cash-stack"></i>
+            </span>
+
+            <input
+                type="number"
+                step="0.01"
+                class="form-control"
+                name="prix"
+                placeholder="Prix du produit"
+                required>
+
+        </div>
+
+        <div class="d-grid">
+
+            <button class="btn btn-primary btn-premium">
+                <i class="bi bi-plus-circle-fill"></i>
+                Enregistrer le produit
+            </button>
+
+        </div>
+
+    </form>
+
+    <hr class="border-light my-4">
+
+    <div class="text-center footer">
+        © 2026 AXITECH • Gestion des Produits
+    </div>
+
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>

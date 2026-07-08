@@ -1,4 +1,4 @@
-package com.axitech.web.controller;
+package com.axitech.controller;
 
 import java.sql.Connection;
 import java.util.List;
